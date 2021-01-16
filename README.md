@@ -1,47 +1,46 @@
-#GNN(Graph Neural Network)
+# GNN(Graph Neural Network)
  Provide Example of Graph Neural Networks
 
 ---
 
-###index
+### index
 - Benchmark Dataset
 - GCN(Graph Convolutional Network)
 - GAT(Graph Attention Network)
 
 ---
-##Benchmark Dataset
-###[Cora](https://relational.fit.cvut.cz/dataset/CORA)
+## Benchmark Dataset
+### [Cora](https://relational.fit.cvut.cz/dataset/CORA)
 ![img_2.png](img_2.png)  
 sota : https://paperswithcode.com/sota/node-classification-on-cora
 
-###[Citeseer](https://linqs.soe.ucsc.edu/data)
+### [Citeseer](https://linqs.soe.ucsc.edu/data)
 ![img_3.png](img_3.png)  
 sota : https://paperswithcode.com/sota/node-classification-on-citeseer
 
-###[Pubmed](https://www.nlm.nih.gov/databases/download/pubmed_medline.html)  
+### [Pubmed](https://www.nlm.nih.gov/databases/download/pubmed_medline.html)  
 sota : https://paperswithcode.com/sota/node-classification-on-pubmed
 
 ----
 
-##GCN (Grapth Convolutional Networks)
+## GCN (Grapth Convolutional Networks)
 https://arxiv.org/abs/1609.02907
 
-###Overview
+### Overview
 ![img_4.png](img_4.png)
 
 ---
 
-###
 
-##GAT (Graph Attention Network)
+## GAT (Graph Attention Network)
 https://openreview.net/forum?id=rJXMpikCZ
 
-###Overview
+### Overview
 ![img.png](img.png)
 
 ---
 
-###Train
+### Train
 
 ~~~
 usage : 
@@ -79,7 +78,7 @@ $ python train.py --epochs 1000 --data citeseer --verbose --seed 80
 
 ~~~
 
-###Result
+### Result
 
 |          | GCN   | GAT    | SPGAT |
 |----------|-------|--------|-------------------------|
@@ -88,7 +87,7 @@ $ python train.py --epochs 1000 --data citeseer --verbose --seed 80
 
 Speed: GCN > SPGAT > GAT
 
-###Reference
+### Reference
 
     @article{
       velickovic2018graph,
@@ -112,12 +111,12 @@ Speed: GCN > SPGAT > GAT
          url={http://networkrepository.com},
          year={2015}
     }
-####GCN
+#### GCN
 [Tensorflow] https://github.com/tkipf/gcn  
 [Pytorch] https://github.com/tkipf/pygcn  
 [Pytorch] https://github.com/marblet/gcnns  
 
-####GAT
+#### GAT
 [Tensorflow] https://github.com/PetarV-/GAT  
 [Keras] https://github.com/danielegrattarola/keras-gat  
 [Pytorch] https://github.com/marblet/gat-pytorch   
