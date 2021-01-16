@@ -23,7 +23,7 @@ sota : https://paperswithcode.com/sota/node-classification-on-pubmed
 
 ----
 
-## GCN (Grapth Convolutional Networks)
+## GCN (Graph Convolutional Networks)
 https://arxiv.org/abs/1609.02907
 
 ### Overview
